@@ -31,7 +31,7 @@ public class Application {
                 // 결과
                 int ballCount = sumBallCount(targetFirNum, targetSecNum, targetThrNum, inputFirNum, inputSecNum, inputThrNum);
                 int StrikeCount = sumStrikeCount(targetFirNum, targetSecNum, targetThrNum, inputFirNum, inputSecNum, inputThrNum);
-                // 결과출력
+                // 결과 출력
                 isCorrect = printResult(ballCount, StrikeCount);
             }
             System.out.println("게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요");
